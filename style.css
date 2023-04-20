@@ -1,8 +1,17 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 .grid{
     display: grid;
+    width: 500px;
+    height: 500px;
+
+    margin: 0 auto;
 }
 
 .grid div{
     outline: 1px solid black;
-    height: 40px;
 }
