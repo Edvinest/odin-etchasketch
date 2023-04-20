@@ -4,14 +4,36 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.ui{
+    padding: 2.5% 0;
+}
+
+.ui button{
+    background: none;
+    border: 1.5px solid black;
+    border-radius: 250px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    -ms-border-radius: 250px;
+    -o-border-radius: 250px;
+}
+
+.ui button:hover{
+    background-color: black;
+    color: white;
+}
+
 .grid{
     display: grid;
     width: 500px;
     height: 500px;
-
     margin: 0 auto;
-}
-
-.grid div{
-    outline: 1px solid black;
+    box-shadow: 10px 10px #00000027;
+    border: 2px solid #0000001f;
 }
