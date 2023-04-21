@@ -12,6 +12,10 @@ body{
 
 .ui{
     padding: 2.5% 0;
+    width: 500px;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .ui button{
@@ -36,4 +40,6 @@ body{
     margin: 0 auto;
     box-shadow: 10px 10px #00000027;
     border: 2px solid #0000001f;
+
+    user-select: none;
 }
